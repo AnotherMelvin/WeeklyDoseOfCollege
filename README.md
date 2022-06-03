@@ -2,18 +2,18 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/Universitas-Multimedia-Nusantara/uts-jawascript">
+  <a href="https://github.com/AnotherMelvin/WeeklyDoseOfCollege">
     <img src="src/assets/logo.png" alt="logo" width="80" height="80">    
   </a>
-    <a href="https://replit.com/@MelvinTungadi/WeeklyDoseOfCollege">Replit</a>
+    <br />
   <h2 align="center">Weekly Dose of College</h2>
-
   <p align="center">
   A web-game project for the 2nd semester final test<br />
   Made by the <b>JawaScript</b> group. 
   </p>
-  <hr />
-  <hr />
+        <a href="https://github.com/AnotherMelvin/WeeklyDoseOfCollege">Github</a> |
+    <a href="https://replit.com/@MelvinTungadi/WeeklyDoseOfCollege">Replit</a> |
+    <a href="">Video Presentation</a>
 </div>
                                           
 ## Members
@@ -32,15 +32,14 @@
 ### Manage your character!
 * There are 4 essential status' that you must pay attention to
     * Hunger - Eat to decrease hunger or go out and buy food. Try to not starve!
-    * Game(?) - Play games to recover 
-    * Fitness - Go to the gym and workout
+    * Boredom - Play games to recover!
+    * Fitness - Go to the gym and workout!
     * Stamina - Sleep to prevent further stamina loss
 * You also must study to progress. Study at home or go to the campus to increase your status!
 
 ### Try to survive!
 * If any of the 4 essential status reaches 0, then it's game over!
 * If you successfully reach the 7th day, then you win! You will also get a life prediction based on your final status conditions.
-
 
 ## Built With
 

@@ -1,3 +1,7 @@
+html {
+  margin: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -25,14 +29,176 @@ main {
   display: block;
 }
 
+.error-message {
+  height: 5px;
+  color: red;
+}
+
+.text-start {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .start-button {
   display: inline-flex;
   margin: 0 5px;
   width: 145px;
 }
 
+.act-button {
+  display: inline-flex;
+  margin: 0 5px;
+  width: 145px;
+  height: 40px;
+}
+
 .progress-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.temp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-picker {
+  border-style: solid; 
+  border-radius: 10px;
+  padding: 14px;
+  background-color: white;
+}
+
+.status-bar {
+  border-style: solid; 
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+}
+
+.button-container {
+  border-style: solid; 
+  border-radius: 10px;
+  padding: 4px;
+  background-color: white;
+}
+
+.news-container {
+  border-style: solid; 
+  overflow: auto;
+  height: 231px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: white;
+}
+
+.news-container h5 {
+  margin-top: 5px;
+}
+
+.news-title {
+  padding: 5px;
+  color: white;
+  background-color: crimson;
+}
+
+.time-container {
+  border-style: solid; 
+  border-radius: 10px;
+  height: 231px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.time-content {
+  padding: 30px;
+}
+
+.player-detail {
+  border-style: solid; 
+  border-radius: 10px;
+  padding: 7px;
+  background-color: white;
+}
+
+.message-container {
+  border-style: solid; 
+  border-radius: 10px;
+  height: 60px;
+  padding: 13px;
+  background-color: white;
+}
+
+.message-container h4 {
+  color: red;
+}
+
+.back-container {
+  border-style: solid; 
+  border-radius: 10px;
+  padding: 11px;
+  background-color: white;
+}
+
+.game-canvas {
+  width: auto;
+  height: auto;
+  background-attachment: fixed;
+  padding-bottom: 1px;
+}
+
+.main-canvas {
+  background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+  height: auto;
+}
+
+.overlay {
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: auto;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.about-canvas {
+  background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+  height: auto;
+}
+
+.about-overlay {
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: auto;
+  height: auto;
+}
+
+.end-canvas {
+  background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+  height: auto;
+}
+
+.end-overlay {
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: auto;
+  height: auto;
+  padding: 140px;
+}
+
+.text-box {
+  height: 200px;
+  width: auto;
+  padding-top: 20px;
 }
