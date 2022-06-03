@@ -411,7 +411,7 @@ export default function Game(props) {
       }, 2000);
     } 
 
-    if (hour >= 15 && day != 0) {
+    if (hour >= 15 && day != 0 && location == 1) {
       setClass1Done(1);
       setClass2Done(1);
       setInfo1("No Class");

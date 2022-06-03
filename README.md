@@ -12,8 +12,8 @@
   Made by the <b>JawaScript</b> group. 
   </p>
         <a href="https://github.com/AnotherMelvin/WeeklyDoseOfCollege">Github</a> |
-    <a href="https://replit.com/@MelvinTungadi/WeeklyDoseOfCollege">Replit</a> |
-    <a href="">Video Presentation</a>
+    <a href="https://replit.com/@MelvinTungadi/WeeklyDoseOfCollege?v=1#src/App.jsx">Replit</a> |
+    <a href="https://drive.google.com/file/d/1X3V2VR4RJfh28p-xZsi3rPJfbyjxo0oV/view?usp=sharing">Video Presentation</a>
 </div>
                                           
 ## Members
