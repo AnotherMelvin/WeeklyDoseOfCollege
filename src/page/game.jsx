@@ -463,37 +463,39 @@ export default function Game(props) {
   // Add Status
   function addEat(amount) {
     if (delay != 1) {
-      if (stock != 0) {
+      if (stock == 0 && location == 0) {
+        setMessage("Food stock is empty!");
+          setTimeout(() => {
+          setMessage("");
+        }, 2000);
+      } else {
         setDelay(1);
 
-        if (place == 1) setPlace(5);
+        if (location == 1) setPlace(5);
 
         if (props.avatar === 0) {
           setAvatarNow(2);
           setTimeout(() => {
             setEat(eat + amount);
             subWork(amount * 1.3);
-            subStock(amount);
+            if (location == 0) subStock(amount);
+            else subMoney(amount);
             setAvatarNow(0);
             setDelay(0);
-            if (place == 1) setPlace(1);
+            if (location == 1) setPlace(1);
           }, 3000);
         } else {
           setAvatarNow(7);
           setTimeout(() => {
             setEat(eat + amount);
             subWork(amount * 1.3);
-            subStock(amount);
+            if (location == 0) subStock(amount);
+            else subMoney(amount);
             setAvatarNow(1);
             setDelay(0);
-            if (place == 1) setPlace(1);
+            if (location == 1) setPlace(1);
           }, 3000);
         }
-      } else {
-        setMessage("Food stock is empty!");
-        setTimeout(() => {
-          setMessage("");
-        }, 2000);
       }
     }
   }
